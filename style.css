@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* MUDANÇA: Aplicando a fonte pixel art em todos os elementos */
+    font-family: 'Press Start 2P', cursive;
 }
 
-/* Corpo da página com fundo gradiente e centralização */
+/* Corpo da página com fundo gradiente e centralização (VISUAL ANTIGO) */
 body {
     display: flex;
     justify-content: center;
@@ -17,7 +18,7 @@ body {
     padding: 20px;
 }
 
-/* Estilo do cartão de conteúdo */
+/* Estilo do cartão de conteúdo (VISUAL ANTIGO) */
 .card {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -26,7 +27,7 @@ body {
     padding: 40px 50px;
     text-align: center;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    max-width: 500px;
+    max-width: 550px; /* Levemente maior para acomodar a fonte */
     width: 100%;
 }
 
@@ -39,25 +40,29 @@ body {
 
 /* Título principal */
 h1 {
-    font-size: 2.5rem;
+    /* MUDANÇA: Tamanho da fonte ajustado */
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 /* Subtítulo descritivo */
 .subtitle {
-    font-size: 1rem;
-    font-weight: 400;
+    /* MUDANÇA: Tamanho da fonte ajustado e espaçamento */
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
+    line-height: 1.6;
 }
 
-/* Botão de download */
+/* Botão de download (VISUAL ANTIGO) */
 .download-btn {
     display: inline-block;
     background-color: #00d9ff;
     color: #1a1a2e;
-    font-size: 1.1rem;
+    /* MUDANÇA: Tamanho da fonte ajustado */
+    font-size: 0.9rem; 
     font-weight: 600;
     text-decoration: none;
     padding: 15px 30px;
