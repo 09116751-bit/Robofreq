@@ -1,0 +1,84 @@
+/* Reset básico e configurações de fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* MUDANÇA: Aplicando a fonte pixel art em todos os elementos */
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Corpo da página com fundo gradiente e centralização (VISUAL ANTIGO) */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilo do cartão de conteúdo (VISUAL ANTIGO) */
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px 50px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    max-width: 550px; /* Levemente maior para acomodar a fonte */
+    width: 100%;
+}
+
+/* Ícone de robô no topo do cartão */
+.card-icon {
+    font-size: 4rem;
+    color: #00d9ff;
+    margin-bottom: 20px;
+}
+
+/* Título principal */
+h1 {
+    /* MUDANÇA: Tamanho da fonte ajustado */
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* Subtítulo descritivo */
+.subtitle {
+    /* MUDANÇA: Tamanho da fonte ajustado e espaçamento */
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Botão de download (VISUAL ANTIGO) */
+.download-btn {
+    display: inline-block;
+    background-color: #00d9ff;
+    color: #1a1a2e;
+    /* MUDANÇA: Tamanho da fonte ajustado */
+    font-size: 0.9rem; 
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.4);
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.download-btn:hover {
+    transform: translateY(-3px);
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Ícone dentro do botão */
+.download-btn i {
+    margin-right: 10px;
+}
